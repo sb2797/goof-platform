@@ -29,7 +29,7 @@ app.jinja_env.trim_blocks = True
 app.jinja_env.lstrip_blocks = True
 sched = BackgroundScheduler(logger=app.logger)
 queues = {}
-last_events = {}
+last_events = {} #last_events
 
 
 @app.before_first_request
